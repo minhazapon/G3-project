@@ -83,8 +83,60 @@ nav li a{
      background-color: orange;
      height: 60px;
      width: 160px;
+     border: 0px;
+     border-radius: 5px;
+     font-size: 20px;
+     color: aliceblue;
 
 
 }
 
+
+img{
+     height: 600px;
+     width: 1200px;
+
+
+}
+
+.banner img{
+
+    width: 100%;
+}
+
+
+/* responsive sector 1 */
+
+@media screen and (max-width: 576px) {
+
+    .head{
+         padding: 20px;
+
+
+    }
+
+    nav{
+         flex-direction: column;
+
+    }
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+            
+    .head{
+        padding: 20px;
+
+
+   }
+
+   nav{
+        flex-direction: column;
+
+   }
+
+
+    
+}
 
