@@ -148,6 +148,90 @@ nav li a{
 
 }
 
+.facts{
+        margin-top: 50px;
+  
+
+}
+
+.sf{
+     font-size: 45px;
+
+
+}
+
+.facts2{
+
+     margin-top: 50px;
+
+}
+
+.award{
+
+         border: 1px solid orange;
+         border-radius: 8px;
+         height: 240px;
+         width: 240px;
+         text-align: center;
+         padding-top: 50px;
+        
+}
+
+.five{
+
+        color: rgb(61, 57, 57);
+
+}
+
+.project{
+     border: 1px solid orange;
+     border-radius: 8px;
+     height: 240px;
+     width: 240px;
+     text-align: center;
+     padding-top: 50px;
+
+
+}
+
+.work{
+     border: 1px solid orange;
+     border-radius: 8px;
+     height: 240px;
+     width: 240px;
+     text-align: center;
+
+
+     padding-top: 50px;
+        
+
+
+}
+
+.email{
+     border: 1px solid orange;
+     border-radius: 8px;
+     height: 240px;
+     width: 240px;
+     text-align: center;
+     padding-top: 50px;
+
+        
+
+
+}
+
+
+.facts2{
+
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+      
+
+
+}
 
 
 
