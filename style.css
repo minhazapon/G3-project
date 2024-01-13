@@ -233,6 +233,88 @@ nav li a{
 
 }
 
+.sponsor{
+
+    margin-top: 50px;
+
+}
+
+
+
+.sp{
+     text-align: center;
+
+
+
+}
+
+.our{
+       font-size: 45px;
+
+
+}
+
+.logo{
+        height: 45px;
+        width: 150px;
+
+
+}
+
+
+.slogo{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         margin-top: 50px;
+
+
+}
+
+.foot{
+      background-color: rgb(248, 186, 175);
+      height: 100px;
+      padding-top: 40px;
+
+     margin-top: 200px;
+}
+
+
+.all{
+
+     color: rgb(61, 61, 61);
+     text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -302,6 +384,30 @@ nav li a{
 
      .facts2{
 
+
+          flex-direction: column;
+     }
+
+
+
+     .sponsor{
+
+          flex-direction: column;
+
+
+     }
+
+     .slogo{
+
+
+          flex-direction: column;
+     }
+
+     .foot{
+
+          flex-direction: column;
+     }
+     .all{
 
           flex-direction: column;
      }
