@@ -290,6 +290,81 @@ nav li a{
 }
 
 
+ 
+.features{
+     margin-top: 50px;
+     display: flex;
+     gap: 100px;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.fy{
+font-size: 45px;
+
+
+}
+
+.dex{
+
+font-size: 20px;
+}
+
+
+.card{
+
+     width: 586px;
+     height: 171px;
+     
+     border-radius: 8px;
+     background: #fdf1f1;
+     
+     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+     
+
+}
+
+
+.fy{
+     border-left: 5px solid orange;  
+     padding: 20px;   
+
+}
+
+
+.ten{
+     text-align: center;
+     padding-top: 20px;
+     width: 200px;
+     height: 150px;
+     border-radius: 8px;
+     background: #FF900E;
+     position: relative;
+     bottom: 100px;
+    
+
+}
+
+.year{
+     font-size: 40px;
+     color: #fdf1f1;
+
+
+}
+
+.e{
+     color: #fdf1f1;
+
+
+}
+
+.pi{
+     height: 90%;
+     margin-left: 50px;
+
+
+}
 
 
 
@@ -412,6 +487,30 @@ nav li a{
           flex-direction: column;
      }
      
+   .features{
+
+
+     flex-direction: column;
+    
+   }
+
+   .pic{
+      width: 100%;
+
+      flex-direction: column;
+
+
+
+   }
+
+   .fea{
+
+      margin-left: 200px;
+
+   }
+
+
+
  }
  
  
@@ -452,5 +551,3 @@ nav li a{
  
      
  }
- 
- 
