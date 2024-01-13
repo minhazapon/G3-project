@@ -293,6 +293,18 @@ nav li a{
            grid-template-columns: 1fr;
 
      }
+
+     .facts{
+
+         flex-direction: column;
+
+     }
+
+     .facts2{
+
+
+          flex-direction: column;
+     }
      
  }
  
@@ -315,6 +327,20 @@ nav li a{
 
      flex-direction: column;
 }
+
+.facts{
+
+     flex-direction: column;
+
+ }
+
+ .facts2{
+
+
+      flex-direction: column;
+ }
+
+
 
  
  
