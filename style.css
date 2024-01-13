@@ -105,42 +105,6 @@ nav li a{
 }
 
 
-/* responsive sector 1 */
-
-@media screen and (max-width: 576px) {
-
-    .head{
-         padding: 20px;
-
-
-    }
-
-    nav{
-         flex-direction: column;
-
-    }
-    
-}
-
-
-@media screen and (min-width: 576px) and (max-width: 960px) {
-            
-    .head{
-        padding: 20px;
-
-
-   }
-
-   nav{
-        flex-direction: column;
-
-   }
-
-
-    
-}
-
-
 .teamcontainer{
 
     display: flex;
@@ -184,3 +148,93 @@ nav li a{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive sector 1 */
+
+@media screen and (max-width: 576px) {
+
+     .head{
+          padding: 20px;
+ 
+ 
+     }
+ 
+     nav{
+          flex-direction: column;
+ 
+     }
+
+     .teamcontainer{
+
+
+          flex-direction: column;
+     }
+
+
+     .imgcontainer{
+
+           grid-template-columns: 1fr;
+
+     }
+     
+ }
+ 
+ 
+ @media screen and (min-width: 576px) and (max-width: 960px) {
+             
+     .head{
+         padding: 20px;
+ 
+ 
+    }
+ 
+    nav{
+         flex-direction: column;
+ 
+    }
+
+    .teamcontainer{
+
+
+     flex-direction: column;
+}
+
+ 
+ 
+     
+ }
+ 
+ 
