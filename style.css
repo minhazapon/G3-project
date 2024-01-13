@@ -92,7 +92,7 @@ nav li a{
 }
 
 
-img{
+.bi{
      height: 600px;
      width: 1200px;
 
@@ -138,5 +138,49 @@ img{
 
 
     
+}
+
+
+.teamcontainer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+    margin-top: 50px;
+
+
+
+}
+
+
+.imgcontainer{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+
+
+}
+
+
+.qf{
+     font-size: 45px;
+
+
+
+}
+
+.qui{
+     color: rgb(109, 109, 109);
+
+
+}
+
+
+.fe{
+      color: orange;
+
+
 }
 
